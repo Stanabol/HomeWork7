@@ -1,1 +1,86 @@
 /* styles goes here */
+body {
+    background: #F7F7F7;
+}
+
+.col-6 {
+    margin: 0 auto;
+}
+
+.col-8 {
+margin: 0 auto;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #898F99;
+    margin-top: 107px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #0EC8CB;
+    margin-top: 55px;
+}
+
+h2 {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 55px;
+}
+
+ .secondh2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 26px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #1B1B1B;
+}
+
+.col-4 {
+    margin-top: 99px;
+    background: #F0F1F1;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    margin-bottom: 142px;
+}
+p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #777777;
+}
+
