@@ -37,7 +37,7 @@ h3 {
     margin-top: 107px;
 }
 
-h1 {
+.title h1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -48,9 +48,10 @@ h1 {
     text-transform: uppercase;
     color: #0EC8CB;
     margin-top: 55px;
+    width: 100%;
 }
 
-h2 {
+.titlesecond h2 {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -71,6 +72,10 @@ h2 {
     /* identical to box height */
     text-transform: uppercase;
     color: #1B1B1B;
+    padding-top: 52px;
+    padding-bottom: 36x;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .col-4 {
@@ -80,7 +85,7 @@ h2 {
     box-sizing: border-box;
     margin-bottom: 142px;
 }
-p {
+.content {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
@@ -90,3 +95,14 @@ p {
     color: #777777;
 }
 
+.col-4:hover {
+    background: #0EC8CB;
+    color: #FFFFFF;
+}
+
+.col-4:hover .secondh2 {
+    color: #FFFFFF
+}
+.col-4:hover .content {
+    color: #ffffff;
+}
