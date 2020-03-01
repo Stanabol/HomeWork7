@@ -11,6 +11,12 @@ body {
 margin: 0 auto;
 }
 
+[class^='icon-'] {
+    font-size: 65px;
+    text-align: center;
+    padding-top: 52px;
+}
+
 a {
     text-align: center;
     text-decoration: none;
